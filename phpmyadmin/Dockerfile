@@ -1,0 +1,6 @@
+FROM phpmyadmin:latest
+
+ENV PMA_HOST 172.18.0.4
+ENV MYSQL_ROOT_PASSWORD inipasswordsaya
+
+EXPOSE 9030
