@@ -20,7 +20,7 @@ if (mysqli_num_rows($result) > 0) {
 }
 
 else {
-	echo "No users found.";
+	echo "No users found..";
 }
 
 // Close the database connection
